@@ -5,13 +5,10 @@
 # RR: fila circular usando o quantum especificado, se o processo rodar por 2 unidades de tempo e não terminar,
 # volta pra o final da fila dos processos prontos.
 
+
 from processo import Processo
 
 import copy # para que os outros processos de escalonamento não peguem dados alterados
-# # usando o 
-# processos_para_fcfs = copy.deepcopy(processos) 
-# processos_para_sjf = copy.deepcopy(processos)
-# processos_para_rr = copy.deepcopy(processos)
 
 
 def escalonador_fcfs(processos_para_fcfs):
